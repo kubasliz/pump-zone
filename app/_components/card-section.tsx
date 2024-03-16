@@ -10,7 +10,7 @@ import { CARD_DATA } from '@/constants/card-data';
 
 export function CardSection() {
   return (
-    <div className="relative" id="card-section">
+    <div className="relative px-2" id="card-section">
       <QuaterOfCircle className="top-0 left-0" height={150} width={200} />
       <HalfOfCircle className="top-40 right-0 h-full w-[350px]" />
       <Heading heading="A COMPLETE EXPERIENCE" subheading="PumpZone 360" className="text-center" />

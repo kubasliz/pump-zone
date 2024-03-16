@@ -18,7 +18,7 @@ export const LandingPage = () => {
   return (
     <BackgroundWrapper image="/landing-page.jpeg" id="landing-page">
       <div
-        className="top-4 left-4 md:top-20 md:left-20 absolute flex flex-row items-center justify-center"
+        className="top-10 left-4 md:top-20 md:left-20 absolute flex flex-row items-center justify-center"
         id="home"
       >
         <Logo height={60} width={60} className="text-4xl" />
